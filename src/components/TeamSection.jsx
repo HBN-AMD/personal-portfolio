@@ -14,7 +14,8 @@ export default function TeamSection() {
   const domainTabs = [
     { label: 'All Specialists (6)', value: 'All' },
     { label: 'Frontend & UI/UX (3)', value: 'Frontend & UI/UX' },
-    { label: 'Backend & Database (2)', value: 'Backend & Database' }
+    { label: 'Backend & Database (2)', value: 'Backend & Database' },
+    { label: 'Full-Stack (1)', value: 'Full-Stack Solutions' }
   ];
 
   return (
@@ -35,7 +36,7 @@ export default function TeamSection() {
           </h2>
 
           <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
-            A cohesive squad of frontend innovators, creative UI/UX designers, and backend infrastructure engineers ready to build your digital product.
+            A cohesive squad of frontend innovators, creative UI/UX designers, backend infrastructure engineers, and full-stack developers ready to build your digital product.
           </p>
         </div>
 
@@ -77,7 +78,7 @@ export default function TeamSection() {
               Frontend Craftsmanship Meets Backend Stability
             </h4>
             <p className="text-xs sm:text-sm text-slate-400 max-w-2xl">
-              With 3 dedicated to frontend &amp; UI/UX (Saeed, Deena, Urooj) and 2 dedicated to backend architectures (Hamza, Danyal), our team covers the entire product development lifecycle without gaps.
+              With 3 dedicated to frontend &amp; UI/UX (Saeed, Deena, Urooj), 2 dedicated to backend architectures (Hamza, Danyal), and 1 bridging the gap with full-stack expertise (Habban), our team covers the entire product development lifecycle without gaps.
             </p>
           </div>
 
