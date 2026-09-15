@@ -9,7 +9,7 @@ export default function Contact() {
   const [clientEmail, setClientEmail] = useState('');
   const [clientMessage, setClientMessage] = useState('');
 
-  const teamEmail = "sixpixels.dev@gmail.com";
+  const teamEmail = "sixpixels65@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(teamEmail);
