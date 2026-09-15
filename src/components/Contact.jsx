@@ -9,7 +9,7 @@ export default function Contact() {
   const [clientEmail, setClientEmail] = useState('');
   const [clientMessage, setClientMessage] = useState('');
 
-  const teamEmail = "sixpixels65@gmail.com";
+  const teamEmail = "sixpixel75@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(teamEmail);
@@ -116,7 +116,7 @@ export default function Contact() {
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="mailto:sixpixels75@gmail.com"
+                  href="mailto:sixpixel75@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2.5 p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors border border-white/5 text-xs font-medium"
