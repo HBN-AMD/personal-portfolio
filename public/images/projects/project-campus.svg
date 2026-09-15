@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e16"/>
+      <stop offset="100%" stop-color="#111926"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad5)"/>
+  
+  <g transform="translate(130, 80)">
+    <rect width="540" height="340" rx="14" fill="#0f1624" stroke="#1f2c42" stroke-width="1.5"/>
+    <text x="35" y="45" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="700">Campus Lost &amp; Found Portal</text>
+    
+    <!-- Search Bar -->
+    <rect x="35" y="70" width="470" height="42" rx="8" fill="#161f33" stroke="#253552" stroke-width="1"/>
+    <text x="55" y="96" fill="#64748b" font-family="sans-serif" font-size="13">Search missing items (e.g. calculator, keys, student card)...</text>
+    
+    <!-- Item Cards -->
+    <g transform="translate(35, 135)">
+      <rect width="225" height="160" rx="10" fill="#141c2e" stroke="#23324d" stroke-width="1"/>
+      <rect x="15" y="15" width="60" height="24" rx="4" fill="#ef4444" opacity="0.2"/>
+      <text x="25" y="31" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="600">LOST</text>
+      <text x="15" y="65" fill="#f1f5f9" font-family="sans-serif" font-size="14" font-weight="600">Blue Scientific Calculator</text>
+      <text x="15" y="90" fill="#94a3b8" font-family="sans-serif" font-size="12">Hall B - Room 204</text>
+      <text x="15" y="140" fill="#64748b" font-family="sans-serif" font-size="11">Reported 2h ago</text>
+    </g>
+
+    <g transform="translate(280, 135)">
+      <rect width="225" height="160" rx="10" fill="#141c2e" stroke="#23324d" stroke-width="1"/>
+      <rect x="15" y="15" width="65" height="24" rx="4" fill="#10b981" opacity="0.2"/>
+      <text x="25" y="31" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="600">FOUND</text>
+      <text x="15" y="65" fill="#f1f5f9" font-family="sans-serif" font-size="14" font-weight="600">Leather Wallet &amp; Card</text>
+      <text x="15" y="90" fill="#94a3b8" font-family="sans-serif" font-size="12">Main Library 2nd Floor</text>
+      <text x="15" y="140" fill="#64748b" font-family="sans-serif" font-size="11">Claim via student ID</text>
+    </g>
+  </g>
+</svg>

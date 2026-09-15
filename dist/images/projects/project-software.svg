@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c14"/>
+      <stop offset="100%" stop-color="#111728"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <pattern id="gridPattern2" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad2)"/>
+  <rect width="800" height="500" fill="url(#gridPattern2)"/>
+
+  <!-- Code/Terminal View -->
+  <g transform="translate(130, 75)">
+    <rect width="540" height="350" rx="14" fill="#0d111d" stroke="#222b42" stroke-width="1.5"/>
+    <rect width="540" height="40" rx="14" fill="#141a2b"/>
+    <path d="M 0 40 L 540 40" stroke="#222b42" stroke-width="1"/>
+    <circle cx="24" cy="20" r="5" fill="#ef4444" opacity="0.8"/>
+    <circle cx="42" cy="20" r="5" fill="#eab308" opacity="0.8"/>
+    <circle cx="60" cy="20" r="5" fill="#10b981" opacity="0.8"/>
+    <text x="90" y="24" fill="#64748b" font-family="monospace" font-size="12">schedule_planner.rs - Six Pixels</text>
+
+    <!-- Code Lines -->
+    <text x="30" y="80" fill="#6366f1" font-family="monospace" font-size="14">pub struct <tspan fill="#00f0ff">TimeSlot</tspan> {</text>
+    <text x="50" y="105" fill="#94a3b8" font-family="monospace" font-size="13">day: <tspan fill="#38bdf8">Weekday</tspan>,</text>
+    <text x="50" y="130" fill="#94a3b8" font-family="monospace" font-size="13">start_hour: <tspan fill="#f59e0b">u8</tspan>, end_hour: <tspan fill="#f59e0b">u8</tspan>,</text>
+    <text x="50" y="155" fill="#94a3b8" font-family="monospace" font-size="13">has_collision: <tspan fill="#10b981">bool</tspan></text>
+    <text x="30" y="180" fill="#6366f1" font-family="monospace" font-size="14">}</text>
+
+    <!-- Visual Timetable Grid in terminal -->
+    <g transform="translate(30, 210)">
+      <rect width="480" height="105" rx="8" fill="#131929" stroke="#222c45" stroke-width="1"/>
+      <line x1="120" y1="0" x2="120" y2="105" stroke="#222c45" stroke-width="1"/>
+      <line x1="240" y1="0" x2="240" y2="105" stroke="#222c45" stroke-width="1"/>
+      <line x1="360" y1="0" x2="360" y2="105" stroke="#222c45" stroke-width="1"/>
+
+      <rect x="15" y="20" width="90" height="30" rx="4" fill="#00f0ff" opacity="0.25"/>
+      <rect x="135" y="55" width="90" height="30" rx="4" fill="#6366f1" opacity="0.25"/>
+      <rect x="255" y="20" width="90" height="30" rx="4" fill="#10b981" opacity="0.25"/>
+      <rect x="375" y="40" width="90" height="30" rx="4" fill="#38bdf8" opacity="0.25"/>
+    </g>
+  </g>
+  
+  <rect x="690" y="100" width="10" height="10" fill="#6366f1" opacity="0.8"/>
+  <rect x="100" y="380" width="8" height="8" fill="#00f0ff" opacity="0.7"/>
+</svg>
