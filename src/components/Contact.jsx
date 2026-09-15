@@ -93,6 +93,8 @@ export default function Contact() {
               {/* Direct Mail Link */}
               <a
                 href={`mailto:${teamEmail}?subject=Client%20Inquiry%20-%20Six%20Pixels`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-xs font-bold text-slate-950 bg-pixel-cyan hover:bg-cyan-300 transition-colors shadow-lg shadow-cyan-950/40"
               >
                 <span>Launch Email Client</span>
@@ -116,7 +118,7 @@ export default function Contact() {
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="mailto:sixpixel75@gmail.com"
+                  href="https://linkedin.com/in/six-pixel-6a5026437"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2.5 p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors border border-white/5 text-xs font-medium"

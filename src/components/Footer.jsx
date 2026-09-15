@@ -60,7 +60,7 @@ export default function Footer() {
             <Github className="w-4 h-4" />
           </a>
           <a
-            href="mailto:sixpixel75@gmail.com"
+            href="https://linkedin.com/in/six-pixel-6a5026437"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-lg bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
