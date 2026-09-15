@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, ExternalLink, Github, CheckCircle2 } from 'lucide-react';
+import { X, ExternalLink, CheckCircle2 } from 'lucide-react';
 
 export default function ProjectDetails({ project, onClose }) {
   useEffect(() => {
@@ -99,17 +99,6 @@ export default function ProjectDetails({ project, onClose }) {
             >
               <span>Live Website</span>
               <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-          )}
-          {project.githubUrl && (
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-semibold text-white bg-dark-surface hover:bg-white/10 border border-white/10 transition-colors"
-            >
-              <Github className="w-4 h-4 text-pixel-cyan" />
-              <span>GitHub Repository</span>
             </a>
           )}
         </div>

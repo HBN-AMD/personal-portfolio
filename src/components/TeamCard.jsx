@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Mail, Github, Linkedin, ExternalLink, Sparkles } from 'lucide-react';
+import { FileText, Mail, Linkedin, ExternalLink, Sparkles } from 'lucide-react';
 
 export default function TeamCard({ member, index }) {
   const isCvValid = member.cv && member.cv !== '#' && member.cv.trim() !== '';
@@ -111,17 +111,6 @@ export default function TeamCard({ member, index }) {
           )}
 
           <div className="flex items-center gap-3">
-            {member.github && (
-              <a
-                href={member.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors p-1"
-                aria-label={`${member.name} GitHub`}
-              >
-                <Github className="w-4 h-4" />
-              </a>
-            )}
             {member.linkedin && (
               <a
                 href={member.linkedin}

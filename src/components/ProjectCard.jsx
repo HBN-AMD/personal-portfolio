@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, Eye, Layers } from 'lucide-react';
+import { ExternalLink, Eye, Layers } from 'lucide-react';
 
 export default function ProjectCard({ project, onSelect }) {
   const isCompleted = project.status === 'Completed';
@@ -86,18 +86,6 @@ export default function ProjectCard({ project, onSelect }) {
         </button>
 
         <div className="flex items-center gap-2">
-          {project.githubUrl && (
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              className="text-slate-400 hover:text-white transition-colors p-1"
-              title="GitHub Repository"
-            >
-              <Github className="w-4 h-4" />
-            </a>
-          )}
           {project.liveUrl && (
             <a
               href={project.liveUrl}

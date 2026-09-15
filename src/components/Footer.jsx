@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, ArrowUp } from 'lucide-react';
+import { Linkedin, ArrowUp } from 'lucide-react';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -50,15 +50,6 @@ export default function Footer() {
 
         {/* Socials & Top */}
         <div className="flex items-center gap-3">
-          <a
-            href="https://github.com/saeed-123-hash"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2 rounded-lg bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
-            aria-label="GitHub Profile"
-          >
-            <Github className="w-4 h-4" />
-          </a>
           <a
             href="https://linkedin.com"
             target="_blank"

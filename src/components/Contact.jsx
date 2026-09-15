@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Github, Linkedin, Copy, Check, ArrowRight, MessageSquare, Send } from 'lucide-react';
+import { Mail, Linkedin, Copy, Check, ArrowRight, MessageSquare, Send } from 'lucide-react';
 import { teamMembers } from '../data/team';
 
 export default function Contact() {
@@ -106,15 +106,6 @@ export default function Contact() {
                 Official Channels
               </h4>
               <div className="grid grid-cols-2 gap-3">
-                <a
-                  href="https://github.com/saeed-123-hash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2.5 p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors border border-white/5 text-xs font-medium"
-                >
-                  <Github className="w-4 h-4 text-pixel-cyan" />
-                  <span>GitHub</span>
-                </a>
                 <a
                   href="https://linkedin.com"
                   target="_blank"
